@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Curso</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            background-image: url('./src/assets/pattern.png');
+        }
+        #container {
+            width: 100%;
+            height: 100vh;
+        }
+        #game-container {
+            width: 100%;
+            height: 100%;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="game-container"></canvas>
+    </div>
+
+    <script src="./node_modules/three/build/three.min.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+</html>
